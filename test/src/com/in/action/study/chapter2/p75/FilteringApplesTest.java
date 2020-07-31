@@ -38,4 +38,12 @@ class FilteringApplesTest {
         assertEquals(1, redApples.size());
         assertEquals(120, redApples.get(0).getWeight());
     }
+
+    @Test
+    void filter_람다식() {
+        List<Apple> redApples = this.filteringApples.filter(inventory, (Apple apple) -> "red".equals(apple.getColor()));
+
+        assertEquals(1, redApples.size());
+        assertEquals(120, redApples.get(0).getWeight());
+    }
 }
