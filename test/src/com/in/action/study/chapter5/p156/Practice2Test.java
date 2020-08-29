@@ -7,12 +7,12 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class practice2Test {
+class Practice2Test {
 
-    private practice2 test;
+    private Practice2 test;
     @Test
     void solution() {
-        test = new practice2();
+        test = new Practice2();
 
         List<Integer> list1 = Arrays.asList(1, 2, 3);
         List<Integer> list2 = Arrays.asList(3, 4);

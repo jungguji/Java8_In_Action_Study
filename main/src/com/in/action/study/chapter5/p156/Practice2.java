@@ -5,7 +5,7 @@ import java.util.List;
 
 import static java.util.stream.Collectors.toList;
 
-public class practice2 {
+public class Practice2 {
     public List<int[]> solution (List<Integer> list1, List<Integer> list2) {
         return list1.stream()
                     .flatMap(i -> list2.stream()
